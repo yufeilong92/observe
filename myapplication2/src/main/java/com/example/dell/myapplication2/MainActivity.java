@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initEvent() {
         subject = new MainActivity().subject();
         subject.attch(this);
+        subject.notofyChanger();
     }
 
     private void initView() {
